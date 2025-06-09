@@ -84,6 +84,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         charImages.SetActive(false);
         dialogueText.text = "";
+        dialogueUI.SetActive(false);
     }
 
     void ContinueStory()
